@@ -17,3 +17,6 @@
 - Code files typically have names likes MyPage.aspx.cs while the page file is MyPage.aspx.
 - The developer writes code to respond to different events, like the page being loaded, or a control being clicked,
  rather than the procedural walkthrough of the document.
+- Additionally, dynamic code, which runs on the server, can be placed in a block <% -- dynamic code -- %>, which is similar to
+ other web development technologies such as JSP, ASP, and PHP.
+- Microsoft introduced a new code-behind model which allows static text to remain on the .aspx page while dynamic code remains in .aspx.cs.
